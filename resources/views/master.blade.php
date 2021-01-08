@@ -27,6 +27,15 @@
         height:500px;
         padding-top:100px;
     }
-    
+    .uvod{
+        text-align:center;
+    }
+    .table{
+        text-align:center;
+        font-size:20px;
+    }
+    .table th{
+        text-align:center;
+    }
 </style>
 </html>
