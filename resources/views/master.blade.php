@@ -37,5 +37,14 @@
     .table th{
         text-align:center;
     }
+    .col-sm-6{
+        height:500px;
+        padding-top:100px;
+    }
+    .naslovPacijent{
+        text-align:center;
+        
+    }
+    
 </style>
 </html>

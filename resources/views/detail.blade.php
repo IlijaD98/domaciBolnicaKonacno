@@ -9,7 +9,7 @@
             <a href="/">Go back</a>
             <h2>{{$doctor['name']}} {{$doctor['surname']}}</h2>
             <h3>Email: {{$doctor['email']}} $</h3>
-            <h4>Oblast: {{$doctor['category']}}</h4>
+            <h4>Strucna oblast: {{$doctor['category']}}</h4>
             <br><br>
             
             <br><br>

@@ -3,6 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MedicineController;
+use App\Http\Controllers\PatientController;
+use App\Http\Controllers\DoctorController;
+
+
+
 
 
 /*
@@ -31,4 +37,8 @@ Route::post("/register",[AdminController::class,'register']);
 Route::post("/login",[AdminController::class,'login']);
 Route::get("/",[HomeController::class,'index']);
 Route::get("/detail/{id}",[HomeController::class,'detail']);
+Route::get("/patient",[PatientController::class,'index']);
+Route::get("/doctor",[DoctorController::class,'index']);
+
+
 
